@@ -1,0 +1,103 @@
+body {
+	background-color: #EEE;
+	font-family: sans serif, arial;
+}
+h1 {
+	text-align: center;
+	margin: 10px 0;
+}
+#container {
+	width: 900px;
+	box-sizing: border-box;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #FFF;
+}
+form {
+	width: 700px;
+	margin: auto;
+}
+label{
+	font-size: 24px;
+}
+input, textarea{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	resize: none;
+	font-size: 18px;
+	width: 700px;
+}
+
+#login {
+	width: 400px;
+	box-sizing: border-box;	
+	margin: 200px auto;
+	background-color: #006;
+	padding: 20px 40px;
+	color: #fff;
+}
+#logon .log{
+	width: 300px;
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border: solid 2px #666;
+	padding: 5px;
+}
+
+.submit
+{ font: 100% arial; 
+  border: 1px solid #FFF; 
+  width: 99px; 
+  height: 26px;
+  margin-top: 40px;
+  margin-left: 100px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: linear-gradient(#FE9962, #E25506);
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  color: #FFF;
+  text-shadow: 1px 1px #000;
+  }
+.sair {
+	padding: 5px 20px;
+	font-size: 20px;
+	text-decoration: none;
+	margin: 40px 0;
+}
+#edit_post, #edit_dep, #new_post, #edit_users{
+	display: inline-block;
+	width: 200px;
+	margin: 40px;
+	padding-top: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-decoration: none;
+	font-weight: 600;
+	color: #000;
+}
+#edit_post{
+	background-image: url('../images/posts.png');
+}
+#edit_users{
+	background-image: url('../images/users.png');
+}
+#new_post{
+	background-image: url('../images/nova.png');
+}
+#edit_dep{
+	background-image: url('../images/testimonials.png');
+}
+th {
+	background-color: #333;
+	color: #fff;
+	font-size: 24px;
+	padding: 10px 0;
+}
+td {
+	padding: 10px 0;
+}
+
+
